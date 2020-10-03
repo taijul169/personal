@@ -1,0 +1,263 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+ 
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.top-menu-bar{
+		opacity:1;	
+	}
+	.menu-icon{
+		z-index:111;
+	}
+	.top-menu-bar input{
+		z-index: 999;
+	}
+	#cross.crossShow {
+		opacity: 1;
+		z-index: 111;
+	}
+	header{
+		display: none;
+	}
+	.wrapper-left {
+	background: #111111;
+}
+.img-area img {
+	width: 40vh;
+    height: 40vh;
+	border: 2px solid #606060;
+	margin-top:0px;
+	border-radius: 50%;
+}
+.wrapper-left {
+	height: 45vh;
+	background: #111111;
+}
+.cent {
+	padding-top: 50px;
+	text-align: center;
+}
+.cent p{
+	padding: 0px 20px;
+}
+.height-100vh {
+	height: auto;
+}
+.single-box-item h3::before {
+	top: 88px;	
+}
+.single-box-item {
+	width: 48%;
+}
+.cv {
+	position: relative;
+	
+}
+.nav-area ul {
+	transform: translate(15%,0%);
+}
+.single-item {
+	margin: 6px;
+	width: 31%;
+}
+}
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.top-menu-bar{
+		opacity:1;	
+	}
+	.menu-icon{
+		z-index:111;
+	}
+	.top-menu-bar input{
+		z-index: 999;
+	}
+	#cross.crossShow {
+		opacity: 1;
+		z-index: 111;
+	}
+	header{
+		display: none;
+	}
+	.wrapper-left {
+	background: #111111;
+	
+}
+.img-area img {
+	width: 40vh;
+    height: 40vh;
+	border: 2px solid #606060;
+	margin-top:0px;
+	border-radius: 50%;
+	
+}
+.wrapper-left {
+	
+	height: 45vh;
+	background: #111111;
+}
+.cent {
+	padding-top: 50px;
+	text-align: center;
+}
+.cent p{
+	padding: 0px 20px;
+}
+.height-100vh {
+	height: auto;
+}
+.single-box-item h3::before {
+	top: 88px;	
+}
+.single-box-item {
+	width: 48%;
+}
+.cv {
+	position: relative;
+}
+.devider::before {
+	left: 20px;
+	top: 0px;	
+}
+.pb-50 {
+	padding-bottom: 0;
+}
+.project-counter-area h2 {
+	padding-bottom: 25px;
+}
+.circle-chart {
+	width: 100px;
+	height: 100px;
+}
+.nav-area ul {
+	transform: translate(0%,0%);
+}
+.single-item {
+	margin: 6px;
+	width: 47%;
+}
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	
+
+}
+@media only screen and (min-width: 280px) and (max-width: 575px) {
+	.single-box-item {
+		width: 100%;
+	}
+	.devider::before {
+	display: none;
+	}
+	.pb-50 {
+		padding-bottom: 0;
+	}
+	.experience_area ul li h3 {
+		font-size: 14px;
+		
+	}
+	.experience_area ul li p {
+		font-size: 12px;
+	}
+	ul.left {
+		float: left;
+		width: 50%;
+		font-size: 14px;
+	}
+	ul.right {
+		width: 50%;
+		font-size: 14px;
+		padding-left: 16px;
+	}
+	.project-counter-area h2 {
+		padding-top: 0px;
+	}
+	.cv {
+		text-align: center;
+	}
+	.tble-data ul li span {
+		padding-left: 0px;
+	}
+	.single-item {
+		margin-bottom:10px;
+		width: 100%;
+	}
+	.nav-area ul  {
+		display: none;
+		visibility:hidden;
+	}
+	.title-area h1 {
+		font-size: 35px;
+	}
+	.title-area{
+		padding: 0;
+	}
+	.nav-area {	
+		padding-bottom: 0px;
+	}
+	.bg-title {	
+		left: 4%;
+		font-size: 50px;
+	}
+	.tble-data h2 {
+		font-size: 20px;
+	}
+	.about-left p {
+		font-size: 15px;
+		text-align: center;
+	}
+	.about-left h4{
+		text-align:center ;
+	}
+	.mail- {
+		margin-left: 50px;
+	}
+	.social-icon {
+		margin-left: 35px;
+		padding-bottom: 20px;
+	}
+	.form-top {
+		display: block;
+	}
+	.form-top .form-group:last-child {
+		width: 100%;
+	}
+	.form-top .form-group {
+		padding-right: 0px;
+	}
+	form input[type="submit"] {
+		
+		margin-left:0px;
+		width: 100%;
+	}
+	.pagination-btm ul {
+		left:20%;
+		right:0px
+	}
+	.viewPageCover ul li {
+		padding-right: 15px;
+		font-size: 10px;
+	}
+	.viewPageCover h2 {
+		font-size: 20px;
+	}
+	.viewPageCover p {
+		font-size: 12px;
+	}
+	
+
+}
